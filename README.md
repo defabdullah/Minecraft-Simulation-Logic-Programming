@@ -3,6 +3,7 @@ CMPE260 Principles of Programming Languages Homework. Implementation of minecrea
 
 After compiling main.pro file, predicates can be given.
 
-# Example predicates
+## Example predicates
 ?- state(A, O, T), State=[A, O, T], navigate to(State, 6, 5, ActionList, 4).
-state(A, O, T), State=[A, O, T], find castle location(State, XMin, YMin, XMax, YMax).
+
+?- state(A, O, T), State=[A, O, T], find castle location(State, XMin, YMin, XMax, YMax).
